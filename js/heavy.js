@@ -1,3 +1,5 @@
 for (var i=0; i<10 ; i++) {
-  setTimeout(function () { $("body").append("" + i + "<br>");}, 500 + i);
+  (function (ii) {
+      setTimeout(function () { $("body").append("" + ii + "<br>");}, 500 + ii);
+  })(i);
 }
