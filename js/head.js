@@ -1,5 +1,9 @@
+for (var i=0; i<100 ; i++) {
+  console.log(i);
+}
+
 WebFontConfig = {
-google: { families: [ 'Source+Sans+Pro:300,400,600,300italic,400italic,600italic:latin' ] }
+	google: { families: [ 'Source+Sans+Pro:300,400,600,300italic,400italic,600italic:latin' ] }
 };
 (function() {
 	var wf = document.createElement('script');
@@ -12,6 +16,6 @@ google: { families: [ 'Source+Sans+Pro:300,400,600,300italic,400italic,600italic
 })();
 
 
-for (var i=0; i<1000 ; i++) {
+for (var i=0; i<100 ; i++) {
   console.log(i);
 }
